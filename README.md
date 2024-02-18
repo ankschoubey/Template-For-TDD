@@ -1,4 +1,6 @@
-### Streamline Your Testing Process with TDD Template For IntelliJ
+### Streamline Your Testing Process with a Clean TDD Template For IntelliJ
+
+![](https://upload.wikimedia.org/wikipedia/commons/archive/9/9c/20200803071015%21IntelliJ_IDEA_Icon.svg)
 
 *Note: The following ReadMe is generated with help of ChatGPT. Examples and templates provided are my own.*
 
@@ -40,6 +42,8 @@ class GetUsersTest {
 3. **Consistency**: Adopting a standardized format for tests encourages consistency across your project, facilitating collaboration among team members and easing the burden of maintenance.
 
 Start leveraging the TDD template today to streamline your testing process and elevate the quality of your software.
+
+![](https://www.ankushchoubey.com/images/tdd.png)
 
 #### Available Abbreviations/Shortcuts:
 
