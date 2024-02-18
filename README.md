@@ -1,4 +1,43 @@
-### TDD Template for IntelliJ and VS Code
+### Streamline Your Testing Process with TDD Template For IntelliJ
+
+Writing clean and well-structured tests is essential for ensuring the reliability and maintainability of your codebase. The Test-Driven Development (TDD) Template for IntelliJ and VS Code provides a straightforward approach to creating tests that are easy to understand, maintain, and execute efficiently.
+
+#### Example Usage
+
+Consider the following example, which demonstrates how the TDD template enhances test clarity and readability:
+
+```java
+@Nested
+@DisplayName("GET /users")
+class GetUsersTest {
+    @Nested
+    @DisplayName("WHEN 'role' is 'user'")
+    class WHENRoleIsUserTest {
+        @Test
+        @DisplayName("THEN SHOULD return 403")
+        void THENTest() {
+            // given
+            LoggedInUser = Given.ALoggedInUserForRole("user");
+            
+            // when
+            WebTestClient.ResponseSpec responseSpec = webTestClient.get().uri("/users").exchange();
+            
+            // then
+            responseSpec.expectStatus().isUnauthorized();
+        }
+    }
+}
+```
+
+#### Benefits of Using the Template
+
+1. **Clarity and Readability**: By providing predefined snippets for test structure, the template ensures that your tests are easy to understand and follow, promoting clarity throughout your test suite.
+   
+2. **Efficiency**: With shortcuts for creating test classes and methods, you can speed up the process of writing tests, allowing you to focus more on testing your code's behavior rather than boilerplate setup.
+   
+3. **Consistency**: Adopting a standardized format for tests encourages consistency across your project, facilitating collaboration among team members and easing the burden of maintenance.
+
+Start leveraging the TDD template today to streamline your testing process and elevate the quality of your software.
 
 #### Available Abbreviations/Shortcuts:
 
