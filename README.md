@@ -1,10 +1,10 @@
 ### Streamline Your Testing Process with a Clean TDD Template For IntelliJ
 
-![](https://upload.wikimedia.org/wikipedia/commons/archive/9/9c/20200803071015%21IntelliJ_IDEA_Icon.svg)
+Writing clean and well-structured tests is essential for ensuring the reliability and maintainability of your codebase. The Test-Driven Development (TDD) Template for IntelliJ and VS Code provides a straightforward approach to creating tests that are easy to understand, maintain, and execute efficiently.
+
+![](https://www.ankushchoubey.com/images/tdd.png)
 
 *Note: The following ReadMe is generated with help of ChatGPT. Examples and templates provided are my own.*
-
-Writing clean and well-structured tests is essential for ensuring the reliability and maintainability of your codebase. The Test-Driven Development (TDD) Template for IntelliJ and VS Code provides a straightforward approach to creating tests that are easy to understand, maintain, and execute efficiently.
 
 #### Example Usage
 
@@ -12,22 +12,20 @@ Consider the following example, which demonstrates how the TDD template enhances
 
 ```java
 @Nested
-@DisplayName("GET /users")
+@DisplayName("GET /users") // abbreviation `@api`
 class GetUsersTest {
     @Nested
-    @DisplayName("WHEN 'role' is 'user'")
+    @DisplayName("WHEN 'role' is 'user'") // abbreviation `@when`
     class WHENRoleIsUserTest {
         @Test
-        @DisplayName("THEN SHOULD return 403")
+        @DisplayName("THEN SHOULD return 403") // abbreviation `@then`
         void THENTest() {
             // given
-            LoggedInUser = Given.ALoggedInUserForRole("user");
-            
+                LoggedInUser = Given.ALoggedInUserForRole("user");
             // when
-            WebTestClient.ResponseSpec responseSpec = webTestClient.get().uri("/users").exchange();
-            
+                WebTestClient.ResponseSpec responseSpec = webTestClient.get().uri("/users").exchange();
             // then
-            responseSpec.expectStatus().isUnauthorized();
+                responseSpec.expectStatus().isUnauthorized();
         }
     }
 }
@@ -43,8 +41,6 @@ class GetUsersTest {
 
 Start leveraging the TDD template today to streamline your testing process and elevate the quality of your software.
 
-![](https://www.ankushchoubey.com/images/tdd.png)
-
 #### Available Abbreviations/Shortcuts:
 
 - `@api`: Expands to a nested test class with a display name for a specific API endpoint.
@@ -59,6 +55,8 @@ This template is designed to streamline Test-Driven Development (TDD) practices 
 This TDD template includes helpful shortcuts and structures to facilitate TDD practices, ensuring that your testing process is seamless and organized. The template consists of predefined snippets that can be easily expanded to create test classes and methods, following the Arrange-Act-Assert pattern commonly used in TDD.
 
 #### How to Use
+
+![](https://upload.wikimedia.org/wikipedia/commons/archive/9/9c/20200803071015%21IntelliJ_IDEA_Icon.svg)
 
 1. **Installation**: Download the `TDD-Templates-For-IntelliJ.zip` file.
    
