@@ -1,5 +1,7 @@
 ### Streamline Your Testing Process with TDD Template For IntelliJ
 
+*Note: The following ReadMe is generated with help of ChatGPT. Examples and templates provided are my own.*
+
 Writing clean and well-structured tests is essential for ensuring the reliability and maintainability of your codebase. The Test-Driven Development (TDD) Template for IntelliJ and VS Code provides a straightforward approach to creating tests that are easy to understand, maintain, and execute efficiently.
 
 #### Example Usage
@@ -113,9 +115,9 @@ This TDD template includes helpful shortcuts and structures to facilitate TDD pr
 
 #### Learn More
 
-For a deeper understanding of Test-Driven Development (TDD) and how to effectively implement it in your projects, visit [www.ankushchoubey.com/tdd](www.ankushchoubey.com/tdd).
+For a deeper understanding of Test-Driven Development (TDD) and how to effectively implement it in your projects, visit [www.ankushchoubey.com/tdd](https://www.ankushchoubey.com/tdd).
 
-To read a detailed blog post about this TDD template and its usage, check out [www.ankushchoubey.com/tdd/tdd-template](www.ankushchoubey.com/tdd/tdd-template).
+To read a detailed blog post about this TDD template and its usage, check out [www.ankushchoubey.com/tdd/tdd-template](https://www.ankushchoubey.com/tdd/tdd-template).
 
 ---
-Designed and maintained by [Ankush Choubey]. Visit [www.ankushchoubey.com](www.ankushchoubey.com) for more resources and updates.
+Designed and maintained by **Ankush Choubey**. Visit [www.ankushchoubey.com](https://www.ankushchoubey.com) for more resources and updates.
