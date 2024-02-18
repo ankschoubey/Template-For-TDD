@@ -4,11 +4,15 @@ Writing clean and well-structured tests is essential for ensuring the reliabilit
 
 ![](https://www.ankushchoubey.com/images/tdd.png)
 
-*Note: The following ReadMe is generated with help of ChatGPT. Examples and templates provided are my own.*
+*Note: The following ReadMe is generated with the help of ChatGPT. The examples and templates provided are my own.*
 
 #### Example Usage
 
 Consider the following example, which demonstrates how the TDD template enhances test clarity and readability:
+
+![](https://lh3.googleusercontent.com/drive-viewer/AEYmBYSWaYOl1JoMKuPFxkL1SOFegjbYhu65-NYQx7iGTA6yB8Fvei0nvARIJkeLxsoBNEewXTw24mpau2CN6l1UIlMsEhCu=s1600)
+
+**Final Output**: 
 
 ```java
 @Nested
